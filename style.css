@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%px; height: 100vh;
+    align-content: top;
+    border: 2px solid rgb(58, 57, 57);
+    text-align:center;
+    font-size: 70px;
+}
+.prent-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prent-1 .child{
+    width: 16.66%;
+    height: 100px;
+    margin-top: 200px;
+    background:linear-gradient(rgb(194, 149, 156),rgb(233, 77, 4));
+    border: 4px solid rgb(0, 0, 0);
+
+    
+}
+.parent-2{
+    width: 100%;
+
+    background:linear-gradient(pink,rgb(16, 16, 65));
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-2 .child-2{
+    width: 33.33%;
+    height: 100px;
+    color: rgb(10, 14, 16);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.parent-3{
+    width: 100%;
+    background:linear-gradient(rgb(67, 202, 91),rgb(4, 35, 234));
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-3 .child-3{
+    width: 20%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+
+}
+
+
+.parent-4{
+    width: 100%;
+
+    background:linear-gradient(rgb(208, 90, 118),rgb(3, 202, 232));
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-4 .child-4{
+    width: 50%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.parent-5{
+    width: 100%;
+    background:linear-gradient(rgb(109, 144, 233),rgb(211, 6, 234));
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-5 .child-5{
+    width: 25%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    border: 4px solid ;
+}
+
+
+
+
